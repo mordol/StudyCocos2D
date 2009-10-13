@@ -1,0 +1,284 @@
+// !$*UTF8*$!
+{
+	1D3623240D0F684500981E51 /* QuartzFunAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {565, 454}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 481}";
+		};
+	};
+	1D3623250D0F684500981E51 /* QuartzFunAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {546, 454}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 618}";
+		};
+	};
+	1D6058900D05DD3D006BFB54 /* QuartzFun */ = {
+		activeExec = 0;
+		executables = (
+			FE344D711083726200749A9B /* QuartzFun */,
+		);
+	};
+	28D7ACF60DDB3853001CB0EB /* QuartzFunViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {679, 459}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 234}";
+		};
+	};
+	28D7ACF70DDB3853001CB0EB /* QuartzFunViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {712, 884}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 810}";
+		};
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = FE344D711083726200749A9B /* QuartzFun */;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* QuartzFun */;
+		addToTargets = (
+			1D6058900D05DD3D006BFB54 /* QuartzFun */,
+		);
+		codeSenseManager = FE344D811083727000749A9B /* Code sense */;
+		executables = (
+			FE344D711083726200749A9B /* QuartzFun */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					368,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 277052967;
+			PBXWorkspaceStateSaveDate = 277052967;
+		};
+		perUserProjectItems = {
+			FE344D9210837A8B00749A9B /* PBXTextBookmark */ = FE344D9210837A8B00749A9B /* PBXTextBookmark */;
+			FE344D9510837A8B00749A9B /* PBXTextBookmark */ = FE344D9510837A8B00749A9B /* PBXTextBookmark */;
+			FE344DAC1083846500749A9B /* PBXTextBookmark */ = FE344DAC1083846500749A9B /* PBXTextBookmark */;
+			FE344DAD1083846500749A9B /* PBXTextBookmark */ = FE344DAD1083846500749A9B /* PBXTextBookmark */;
+			FE344DAE1083846500749A9B /* PBXTextBookmark */ = FE344DAE1083846500749A9B /* PBXTextBookmark */;
+			FE344DAF1083846500749A9B /* PBXTextBookmark */ = FE344DAF1083846500749A9B /* PBXTextBookmark */;
+			FE344DB01083846500749A9B /* PBXTextBookmark */ = FE344DB01083846500749A9B /* PBXTextBookmark */;
+			FE344DB11083846500749A9B /* PBXTextBookmark */ = FE344DB11083846500749A9B /* PBXTextBookmark */;
+			FE344DB21083846500749A9B /* PBXTextBookmark */ = FE344DB21083846500749A9B /* PBXTextBookmark */;
+			FE344DB31083846500749A9B /* PBXTextBookmark */ = FE344DB31083846500749A9B /* PBXTextBookmark */;
+			FE344DB41083846500749A9B /* PBXTextBookmark */ = FE344DB41083846500749A9B /* PBXTextBookmark */;
+		};
+		sourceControlManager = FE344D801083727000749A9B /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	29B97316FDCFA39411CA2CEA /* main.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {679, 459}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 353}";
+		};
+	};
+	FE344D711083726200749A9B /* QuartzFun */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = QuartzFun;
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	FE344D801083727000749A9B /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	FE344D811083727000749A9B /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	FE344D871083756E00749A9B /* QuartzFunView.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {546, 454}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 204}";
+		};
+	};
+	FE344D881083756E00749A9B /* QuartzFunView.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {546, 454}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 437}";
+		};
+	};
+	FE344D8A108376D300749A9B /* Constants.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {546, 454}}";
+			sepNavSelRange = "{271, 0}";
+			sepNavVisRange = "{0, 271}";
+		};
+	};
+	FE344D8B1083788900749A9B /* UIColor-Random.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {546, 454}}";
+			sepNavSelRange = "{75, 0}";
+			sepNavVisRange = "{0, 80}";
+		};
+	};
+	FE344D8C1083789400749A9B /* UIColor-Random.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {546, 454}}";
+			sepNavSelRange = "{171, 0}";
+			sepNavVisRange = "{0, 408}";
+		};
+	};
+	FE344D9210837A8B00749A9B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 29B97316FDCFA39411CA2CEA /* main.m */;
+		name = "main.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 353;
+		vrLoc = 0;
+	};
+	FE344D9510837A8B00749A9B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF60DDB3853001CB0EB /* QuartzFunViewController.h */;
+		name = "QuartzFunViewController.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 234;
+		vrLoc = 0;
+	};
+	FE344DAC1083846500749A9B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FE344D881083756E00749A9B /* QuartzFunView.m */;
+		name = "QuartzFunView.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 437;
+		vrLoc = 0;
+	};
+	FE344DAD1083846500749A9B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* QuartzFunViewController.m */;
+		name = "QuartzFunViewController.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 810;
+		vrLoc = 0;
+	};
+	FE344DAE1083846500749A9B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FE344D8B1083788900749A9B /* UIColor-Random.h */;
+		name = "UIColor-Random.h: 4";
+		rLen = 0;
+		rLoc = 75;
+		rType = 0;
+		vrLen = 80;
+		vrLoc = 0;
+	};
+	FE344DAF1083846500749A9B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FE344D8C1083789400749A9B /* UIColor-Random.m */;
+		name = "UIColor-Random.m: 12";
+		rLen = 0;
+		rLoc = 171;
+		rType = 0;
+		vrLen = 408;
+		vrLoc = 0;
+	};
+	FE344DB01083846500749A9B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FE344D871083756E00749A9B /* QuartzFunView.h */;
+		name = "QuartzFunView.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 204;
+		vrLoc = 0;
+	};
+	FE344DB11083846500749A9B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* QuartzFunAppDelegate.m */;
+		name = "QuartzFunAppDelegate.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 618;
+		vrLoc = 0;
+	};
+	FE344DB21083846500749A9B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* QuartzFunAppDelegate.h */;
+		name = "QuartzFunAppDelegate.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 481;
+		vrLoc = 0;
+	};
+	FE344DB31083846500749A9B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FE344D8A108376D300749A9B /* Constants.h */;
+		name = "Constants.h: 18";
+		rLen = 0;
+		rLoc = 271;
+		rType = 0;
+		vrLen = 271;
+		vrLoc = 0;
+	};
+	FE344DB41083846500749A9B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FE344D8A108376D300749A9B /* Constants.h */;
+		name = "Constants.h: 18";
+		rLen = 0;
+		rLoc = 271;
+		rType = 0;
+		vrLen = 271;
+		vrLoc = 0;
+	};
+}
