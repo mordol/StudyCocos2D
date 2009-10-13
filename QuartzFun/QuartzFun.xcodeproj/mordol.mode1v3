@@ -310,7 +310,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>Constants.h</string>
+								<string>QuartzFunView.m</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -318,23 +318,23 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>Constants.h</string>
+										<string>QuartzFunView.m</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>FE344DB41083846500749A9B</string>
+										<string>FEA5CB9A1084DA150049A2A6</string>
 										<key>history</key>
 										<array>
 											<string>FE344D9210837A8B00749A9B</string>
 											<string>FE344D9510837A8B00749A9B</string>
-											<string>FE344DAC1083846500749A9B</string>
-											<string>FE344DAD1083846500749A9B</string>
 											<string>FE344DAE1083846500749A9B</string>
-											<string>FE344DAF1083846500749A9B</string>
-											<string>FE344DB01083846500749A9B</string>
-											<string>FE344DB11083846500749A9B</string>
 											<string>FE344DB21083846500749A9B</string>
-											<string>FE344DB31083846500749A9B</string>
+											<string>FEA5CB941084DA150049A2A6</string>
+											<string>FEA5CB951084DA150049A2A6</string>
+											<string>FEA5CB961084DA150049A2A6</string>
+											<string>FEA5CB971084DA150049A2A6</string>
+											<string>FEA5CB981084DA150049A2A6</string>
+											<string>FEA5CB991084DA150049A2A6</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -346,14 +346,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 0}, {607, 486}}</string>
+								<string>{{0, 0}, {607, 480}}</string>
 								<key>RubberWindowFrame</key>
 								<string>463 59 815 719 0 0 1280 778 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
 							<key>Proportion</key>
-							<string>486pt</string>
+							<string>480pt</string>
 						</dict>
 						<dict>
 							<key>BecomeActive</key>
@@ -368,14 +368,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 491}, {607, 187}}</string>
+								<string>{{0, 485}, {607, 193}}</string>
 								<key>RubberWindowFrame</key>
 								<string>463 59 815 719 0 0 1280 778 </string>
 							</dict>
 							<key>Module</key>
 							<string>XCDetailModule</string>
 							<key>Proportion</key>
-							<string>187pt</string>
+							<string>193pt</string>
 						</dict>
 					</array>
 					<key>Proportion</key>
@@ -394,9 +394,9 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>FE344DB51083846500749A9B</string>
+				<string>FEA5CB9B1084DA150049A2A6</string>
 				<string>1CE0B1FE06471DED0097A5F4</string>
-				<string>FE344DB61083846500749A9B</string>
+				<string>FEA5CB9C1084DA150049A2A6</string>
 				<string>1CE0B20306471E060097A5F4</string>
 				<string>1CE0B20506471E060097A5F4</string>
 			</array>
@@ -535,7 +535,7 @@
 	<key>WindowOrderList</key>
 	<array>
 		<string>FE344D7E1083727000749A9B</string>
-		<string>/Volumes/Data/Project/StudyCocos2D/trunk/QuartzFun/QuartzFun.xcodeproj</string>
+		<string>/Volumes/Data/Project/StudyCocos2D/QuartzFun/QuartzFun.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
 	<string>463 59 815 719 0 0 1280 778 </string>
@@ -615,7 +615,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>FE344D7E1083727000749A9B</string>
-				<string>FE344DB71083846500749A9B</string>
+				<string>FEA5CB9D1084DA150049A2A6</string>
 				<string>1CD0528F0623707200166675</string>
 				<string>XCMainBuildResultsModuleGUID</string>
 			</array>

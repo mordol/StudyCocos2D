@@ -15,7 +15,7 @@
 	UIColor		*currentColor;
 	ShapeType	shapeType;
 	UIImage		*drawImage;
-	BOOL			useRandomColor;
+	BOOL		useRandomColor;
 }
 
 @property CGPoint firstTouch;
