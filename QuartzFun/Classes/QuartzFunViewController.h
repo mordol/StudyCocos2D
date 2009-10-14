@@ -9,8 +9,10 @@
 #import <UIKit/UIKit.h>
 
 @interface QuartzFunViewController : UIViewController {
-
+	IBOutlet	UISegmentedControl *colorControl;
 }
-
+@property (nonatomic, retain) UISegmentedControl *colorControl;
+- (IBAction)changeColor:(id)sender;
+- (IBAction)changeShape:(id)sender;
 @end
 

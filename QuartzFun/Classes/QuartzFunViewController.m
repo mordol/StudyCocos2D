@@ -7,10 +7,54 @@
 //
 
 #import "QuartzFunViewController.h"
+#import "QuartzFunView.h"
+#import "UIColor-Random.h"
+#import "Constants.h"
 
 @implementation QuartzFunViewController
 
+@synthesize colorControl;
 
+- (IBAction)changeColor:(id)sender {
+	UISegmentedControl* control = sender;
+	NSInteger index = [control selectedSegmentIndex];
+	
+	QuartzFunView* quartzView = (QuartzFunView*)self.view;
+	
+	switch (index) {
+		case kRedColorTab:
+			quartzView.currentColor = [UIColor redColor];
+			quartzView.useRandomColor = NO;
+			break;
+		case kBlueColorTab:
+			quartzView.currentColor = [UIColor blueColor];
+			quartzView.useRandomColor = NO;
+			break;		
+		case kYellowColorTab:
+			quartzView.currentColor = [UIColor yellowColor];
+			quartzView.useRandomColor = NO;
+			break;
+		case kGreenColorTab:
+			quartzView.currentColor = [UIColor greenColor];
+			quartzView.useRandomColor = NO;
+			break;
+		case kRandomColorTab:
+			quartzView.useRandomColor = YES;
+			break;
+		default:
+			break;
+	}
+}
+
+-(IBAction)changeShape:(id)sender {
+	UISegmentedControl* control = sender;
+	[(QuartzFunView*)self.view setShapeType:[control selectedSegmentIndex]];
+	
+	if ([control selectedSegmentIndex] == kImageShape)
+		colorControl.hidden = YES;
+	else
+		colorControl.hidden = NO;
+}
 
 /*
 // The designated initializer. Override to perform setup that is required before the view is loaded.
@@ -29,21 +73,18 @@
 */
 
 
-/*
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad {
     [super viewDidLoad];
 }
-*/
 
 
-/*
 // Override to allow orientations other than the default portrait orientation.
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation {
     // Return YES for supported orientations
     return (interfaceOrientation == UIInterfaceOrientationPortrait);
 }
-*/
+
 
 - (void)didReceiveMemoryWarning {
 	// Releases the view if it doesn't have a superview.
@@ -59,6 +100,7 @@
 
 
 - (void)dealloc {
+	[colorControl release];
     [super dealloc];
 }
 
