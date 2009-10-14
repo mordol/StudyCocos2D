@@ -31,7 +31,52 @@
 
 
 - (void)drawRect:(CGRect)rect {
-    // Drawing code
+	
+	if (currentColor == nil)
+		self.currentColor = [UIColor redColor];
+	
+    CGContextRef context = UIGraphicsGetCurrentContext();
+	
+	CGContextSetLineWidth(context, 2.0);
+	CGContextSetStrokeColorWithColor(context, currentColor.CGColor);
+	
+	CGContextSetFillColorWithColor(context, currentColor.CGColor);
+	CGRect currentRect = CGRectMake(
+			(firstTouch.x > lastTouch.x) ? lastTouch.x : firstTouch.x,
+			(firstTouch.y > lastTouch.y) ? lastTouch.y : firstTouch.y,
+			fabsf(firstTouch.x - lastTouch.x),
+									fabsf(firstTouch.y - lastTouch.y));
+	
+	switch (shapeType) {
+		case kLineShape:
+			CGContextMoveToPoint(context, firstTouch.x, firstTouch.y);
+			CGContextAddLineToPoint(context, lastTouch.x, lastTouch.x);
+			CGContextStrokePath(context);
+			break;
+		
+		case kRectShape:
+			CGContextAddRect(context, currentRect);
+			CGContextDrawPath(context, kCGPathFillStroke);
+			break;
+		
+		case kEllipseShape:
+			CGContextAddEllipseInRect(context, currentRect);
+			CGContextDrawPath(context, kCGPathFillStroke);
+			break;
+			
+		case kImageShape:
+		{
+			CGFloat horizontalOffset = drawImage.size.width / 2;
+			CGFloat verticalOffset =  drawImage.size.height / 2;
+			CGPoint drawPoint = CGPointMake(lastTouch.x - horizontalOffset,
+											lastTouch.y - verticalOffset);
+			[drawImage drawAtPoint:drawPoint];
+			break;
+		}
+
+		default:
+			break;
+	}
 }
 
 - (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {
