@@ -16,6 +16,10 @@
 	ShapeType	shapeType;
 	UIImage		*drawImage;
 	BOOL		useRandomColor;
+	CGRect	redrawRect;
+	
+	CGFloat	horizontalOffset;
+	CGFloat	verticalOffset;
 }
 
 @property CGPoint firstTouch;
@@ -24,6 +28,8 @@
 @property ShapeType shapeType;
 @property (nonatomic, retain) UIImage *drawImage;
 @property BOOL useRandomColor;
+@property (readonly) CGRect currentRect;
+@property CGRect redrawRect;
 
 @end
 
