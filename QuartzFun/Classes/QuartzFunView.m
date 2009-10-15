@@ -50,7 +50,7 @@
 	switch (shapeType) {
 		case kLineShape:
 			CGContextMoveToPoint(context, firstTouch.x, firstTouch.y);
-			CGContextAddLineToPoint(context, lastTouch.x, lastTouch.x);
+			CGContextAddLineToPoint(context, lastTouch.x, lastTouch.y);
 			CGContextStrokePath(context);
 			break;
 		
