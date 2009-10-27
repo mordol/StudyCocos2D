@@ -1,0 +1,151 @@
+// !$*UTF8*$!
+{
+	1D3623250D0F684500981E51 /* Cocos2dAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {796, 598}}";
+			sepNavSelRange = "{503, 0}";
+			sepNavVisRange = "{167, 823}";
+		};
+	};
+	1D6058900D05DD3D006BFB54 /* Cocos2DTest */ = {
+		activeExec = 0;
+		executables = (
+			FEF8B5BA1095D29A0080333F /* Cocos2DTest */,
+		);
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = FEF8B5BA1095D29A0080333F /* Cocos2DTest */;
+		activeSDKPreference = iphonesimulator3.1;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* Cocos2DTest */;
+		addToTargets = (
+			1D6058900D05DD3D006BFB54 /* Cocos2DTest */,
+		);
+		codeSenseManager = FEF8B5CF1095D2BB0080333F /* Code sense */;
+		executables = (
+			FEF8B5BA1095D29A0080333F /* Cocos2DTest */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					412,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					374,
+					60,
+					20,
+					48,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 278335896;
+			PBXWorkspaceStateSaveDate = 278335896;
+		};
+		perUserProjectItems = {
+			FEC8D0BE109714F8004C2734 /* PBXBookmark */ = FEC8D0BE109714F8004C2734 /* PBXBookmark */;
+			FEC8D0BF109714F8004C2734 /* PBXTextBookmark */ = FEC8D0BF109714F8004C2734 /* PBXTextBookmark */;
+			FEC8D0C0109714F8004C2734 /* PBXTextBookmark */ = FEC8D0C0109714F8004C2734 /* PBXTextBookmark */;
+		};
+		sourceControlManager = FEF8B5CE1095D2BB0080333F /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	FEC8D0BE109714F8004C2734 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = FE1DAF4C1097082800B10FD0 /* fps_images.png */;
+	};
+	FEC8D0BF109714F8004C2734 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* Cocos2dAppDelegate.m */;
+		name = "Cocos2dAppDelegate.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 419;
+		vrLoc = 0;
+	};
+	FEC8D0C0109714F8004C2734 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* Cocos2dAppDelegate.m */;
+		name = "Cocos2dAppDelegate.m: 24";
+		rLen = 0;
+		rLoc = 503;
+		rType = 0;
+		vrLen = 823;
+		vrLoc = 167;
+	};
+	FEF8B5BA1095D29A0080333F /* Cocos2DTest */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = Cocos2DTest;
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	FEF8B5CE1095D2BB0080333F /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	FEF8B5CF1095D2BB0080333F /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+}
